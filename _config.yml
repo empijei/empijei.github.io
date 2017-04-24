@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Unsupported Human"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "empijei"
+description              : "A mix of security, programming and randomness"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -77,21 +77,21 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "empijei"
+  avatar           : # TODO path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Security enthusiast, programming lover and professional learner."
+  location         : "Mostly Italy"
+  email            : "empijei@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "roberto.clapis"
   foursquare       :
-  github           :
+  github           : "empijei"
   google_plus      :
-  keybase          :
+  keybase          : "empijei"
   instagram        :
   lastfm           :
   linkedin         :
@@ -100,7 +100,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "empijei"
   vine             :
   weibo            :
   xing             :
@@ -241,6 +241,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
