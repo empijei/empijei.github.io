@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "empijei"
-  avatar           : # TODO path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/avatar.png"
   bio              : "Security enthusiast, programming lover and professional learner."
   location         : "Mostly Italy"
   email            : "empijei@gmail.com"
