@@ -9,7 +9,7 @@ series: "Arcane Bash"
 ---
 # The problem
 
-The other day I was looking at some configuration files that were presented in this form:
+Some days ago I was looking at some configuration files that were presented in this form:
 
 ```ini
 #
@@ -66,7 +66,7 @@ VALUE_ENABLED=y
 # VALUE_DISABLED 
 ```
 
-Should become this:
+Should've become this:
 
 ```ini
 # This is a section
@@ -95,3 +95,5 @@ diff <(command1) <(command2)
 ```
 
 This process is called process substitution and it is almost never useful, but when it is it can save up a great amount of time.
+
+If you are intrestes in some advanced features of bash redirections you can go to the [REDIRECTION](https://www.gnu.org/software/bash/manual/html_node/Redirections.html) section of `man bash`.

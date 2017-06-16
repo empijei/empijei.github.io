@@ -1,0 +1,2 @@
+Add identigen, dotfiles, tlsmitm and wapty to projects
+Favicon

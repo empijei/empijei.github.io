@@ -2,6 +2,8 @@
 main:
   - title: "Series"
     url: /series/
+  - title: "Projects"
+    url: /projects/
   - title: "Tags"
     url: /tags/
   - title: "Archive"
