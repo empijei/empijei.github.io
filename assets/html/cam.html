@@ -141,7 +141,7 @@ function init() {
   if (window.location.hash) {
     window.location.hash.substr(1).split("&").forEach((kv)=>{
       let [k,v] = kv.split("=");
-      hashvalues[k] = v;
+      hashvalues[k] = v/360;
     });
   }
   console.log("Params:", hashvalues);
