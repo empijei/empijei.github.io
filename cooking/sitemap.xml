@@ -4,22 +4,52 @@
   
   <url>
     <loc>https://empijei.science/cooking/</loc>
-    <lastmod>2020-09-04T14:51:54+02:00</lastmod>
+    <lastmod>2020-09-04T19:06:48+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://empijei.science/cooking/recipes/baci-di-alassio/</loc>
-    <lastmod>2020-09-04T14:51:54+02:00</lastmod>
+    <loc>https://empijei.science/cooking/category/</loc>
+    <lastmod>2020-09-04T19:06:48+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://empijei.science/cooking/category/</loc>
-    <lastmod>2020-09-04T14:51:54+02:00</lastmod>
+    <loc>https://empijei.science/cooking/recipes/crema-pasticcera/</loc>
+    <lastmod>2020-09-04T19:06:48+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://empijei.science/cooking/cuisine/</loc>
+    <lastmod>2020-09-04T19:06:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://empijei.science/cooking/tags/egg-yolks/</loc>
+    <lastmod>2020-09-04T19:06:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://empijei.science/cooking/cuisine/italian/</loc>
+    <lastmod>2020-09-04T19:06:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://empijei.science/cooking/recipes/</loc>
+    <lastmod>2020-09-04T19:06:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://empijei.science/cooking/category/sweets/</loc>
+    <lastmod>2020-09-04T19:06:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://empijei.science/cooking/tags/</loc>
+    <lastmod>2020-09-04T19:06:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://empijei.science/cooking/recipes/baci-di-alassio/</loc>
     <lastmod>2020-09-04T14:51:54+02:00</lastmod>
   </url>
   
@@ -39,21 +69,6 @@
   </url>
   
   <url>
-    <loc>https://empijei.science/cooking/recipes/</loc>
-    <lastmod>2020-09-04T14:51:54+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://empijei.science/cooking/category/sweet/</loc>
-    <lastmod>2020-09-04T14:51:54+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://empijei.science/cooking/tags/</loc>
-    <lastmod>2020-09-04T14:51:54+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://empijei.science/cooking/tags/vegetarian/</loc>
     <lastmod>2020-09-04T14:51:54+02:00</lastmod>
   </url>
@@ -69,12 +84,17 @@
   </url>
   
   <url>
+    <loc>https://empijei.science/cooking/tips/filling-a-piping-bag/</loc>
+    <lastmod>2020-09-04T12:42:48+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://empijei.science/cooking/cuisine/misc/</loc>
     <lastmod>2020-09-04T12:42:48+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://empijei.science/cooking/category/sweets/</loc>
+    <loc>https://empijei.science/cooking/tips/</loc>
     <lastmod>2020-09-04T12:42:48+02:00</lastmod>
   </url>
   
