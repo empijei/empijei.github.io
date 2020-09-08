@@ -6,10 +6,20 @@
     <description>Recent content in Recipes on (C|B)ook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Sep 2020 19:06:48 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2020 12:52:52 +0200</lastBuildDate>
     
 	<atom:link href="https://empijei.science/cooking/recipes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Carbonara</title>
+      <link>https://empijei.science/cooking/recipes/carbonara/</link>
+      <pubDate>Tue, 08 Sep 2020 12:52:52 +0200</pubDate>
+      
+      <guid>https://empijei.science/cooking/recipes/carbonara/</guid>
+      <description>Cream? No cream? The cream is not in the original recipe but it makes it much easier to obtain a creamy sauce and reduces the risk of scrambling the eggs. I would suggest trying with the cream the first few time you make this and then move on to the traditional version.
+Sometimes when I make brioche I end up with some leftover yolk-cream mix and to not throw it away I add it to the whole egg to make a carbonara, it is not the traditional way but I hate to throw away good ingredients.</description>
+    </item>
     
     <item>
       <title>Crema Pasticcera [~Custard]</title>
