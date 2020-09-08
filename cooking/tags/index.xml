@@ -6,10 +6,37 @@
     <description>Recent content in Tags on (C|B)ook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Sep 2020 12:52:52 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2020 18:46:14 +0200</lastBuildDate>
     
 	<atom:link href="https://empijei.science/cooking/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>gluten free</title>
+      <link>https://empijei.science/cooking/tags/gluten-free/</link>
+      <pubDate>Tue, 08 Sep 2020 18:46:14 +0200</pubDate>
+      
+      <guid>https://empijei.science/cooking/tags/gluten-free/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kids friendly</title>
+      <link>https://empijei.science/cooking/tags/kids-friendly/</link>
+      <pubDate>Tue, 08 Sep 2020 18:46:14 +0200</pubDate>
+      
+      <guid>https://empijei.science/cooking/tags/kids-friendly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vegetarian</title>
+      <link>https://empijei.science/cooking/tags/vegetarian/</link>
+      <pubDate>Tue, 08 Sep 2020 18:46:14 +0200</pubDate>
+      
+      <guid>https://empijei.science/cooking/tags/vegetarian/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>egg yolks</title>
@@ -21,29 +48,29 @@
     </item>
     
     <item>
+      <title>mushrooms</title>
+      <link>https://empijei.science/cooking/tags/mushrooms/</link>
+      <pubDate>Mon, 07 Sep 2020 19:07:40 +0200</pubDate>
+      
+      <guid>https://empijei.science/cooking/tags/mushrooms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vegan</title>
+      <link>https://empijei.science/cooking/tags/vegan/</link>
+      <pubDate>Mon, 07 Sep 2020 19:07:40 +0200</pubDate>
+      
+      <guid>https://empijei.science/cooking/tags/vegan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>egg whites</title>
       <link>https://empijei.science/cooking/tags/egg-whites/</link>
       <pubDate>Fri, 04 Sep 2020 14:51:54 +0200</pubDate>
       
       <guid>https://empijei.science/cooking/tags/egg-whites/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gluten free</title>
-      <link>https://empijei.science/cooking/tags/gluten-free/</link>
-      <pubDate>Fri, 04 Sep 2020 14:51:54 +0200</pubDate>
-      
-      <guid>https://empijei.science/cooking/tags/gluten-free/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vegetarian</title>
-      <link>https://empijei.science/cooking/tags/vegetarian/</link>
-      <pubDate>Fri, 04 Sep 2020 14:51:54 +0200</pubDate>
-      
-      <guid>https://empijei.science/cooking/tags/vegetarian/</guid>
       <description></description>
     </item>
     
@@ -71,15 +98,6 @@
       <pubDate>Thu, 03 Sep 2020 14:50:10 +0200</pubDate>
       
       <guid>https://empijei.science/cooking/tags/stale-bread/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vegan</title>
-      <link>https://empijei.science/cooking/tags/vegan/</link>
-      <pubDate>Thu, 03 Sep 2020 14:50:10 +0200</pubDate>
-      
-      <guid>https://empijei.science/cooking/tags/vegan/</guid>
       <description></description>
     </item>
     
