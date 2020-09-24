@@ -6,10 +6,19 @@
     <description>Recent content on (C|B)ook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Sep 2020 18:46:14 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2020 15:04:45 +0200</lastBuildDate>
     
 	<atom:link href="https://empijei.science/cooking/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Polpette Al Sugo</title>
+      <link>https://empijei.science/cooking/recipes/polpette-al-sugo/</link>
+      <pubDate>Thu, 24 Sep 2020 15:04:45 +0200</pubDate>
+      
+      <guid>https://empijei.science/cooking/recipes/polpette-al-sugo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Swedish Chocolate Balls</title>

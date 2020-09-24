@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>meat on (C|B)ook</title>
+    <link>https://empijei.science/cooking/tags/meat/</link>
+    <description>Recent content in meat on (C|B)ook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Sep 2020 15:04:45 +0200</lastBuildDate>
+    
+	<atom:link href="https://empijei.science/cooking/tags/meat/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Polpette Al Sugo</title>
+      <link>https://empijei.science/cooking/recipes/polpette-al-sugo/</link>
+      <pubDate>Thu, 24 Sep 2020 15:04:45 +0200</pubDate>
+      
+      <guid>https://empijei.science/cooking/recipes/polpette-al-sugo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
