@@ -6,10 +6,37 @@
     <description>Recent content in Tags on (C|B)ook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2020 15:04:45 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2020 11:59:17 +0200</lastBuildDate>
     
 	<atom:link href="https://empijei.science/cooking/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Chestnuts</title>
+      <link>https://empijei.science/cooking/tags/chestnuts/</link>
+      <pubDate>Sun, 11 Oct 2020 11:59:17 +0200</pubDate>
+      
+      <guid>https://empijei.science/cooking/tags/chestnuts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gluten free</title>
+      <link>https://empijei.science/cooking/tags/gluten-free/</link>
+      <pubDate>Sun, 11 Oct 2020 11:59:17 +0200</pubDate>
+      
+      <guid>https://empijei.science/cooking/tags/gluten-free/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vegetarian</title>
+      <link>https://empijei.science/cooking/tags/vegetarian/</link>
+      <pubDate>Sun, 11 Oct 2020 11:59:17 +0200</pubDate>
+      
+      <guid>https://empijei.science/cooking/tags/vegetarian/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>meat</title>
@@ -21,29 +48,11 @@
     </item>
     
     <item>
-      <title>gluten free</title>
-      <link>https://empijei.science/cooking/tags/gluten-free/</link>
-      <pubDate>Tue, 08 Sep 2020 18:46:14 +0200</pubDate>
-      
-      <guid>https://empijei.science/cooking/tags/gluten-free/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>kids friendly</title>
       <link>https://empijei.science/cooking/tags/kids-friendly/</link>
       <pubDate>Tue, 08 Sep 2020 18:46:14 +0200</pubDate>
       
       <guid>https://empijei.science/cooking/tags/kids-friendly/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vegetarian</title>
-      <link>https://empijei.science/cooking/tags/vegetarian/</link>
-      <pubDate>Tue, 08 Sep 2020 18:46:14 +0200</pubDate>
-      
-      <guid>https://empijei.science/cooking/tags/vegetarian/</guid>
       <description></description>
     </item>
     
@@ -143,15 +152,6 @@
       <pubDate>Thu, 03 Sep 2020 11:02:31 +0200</pubDate>
       
       <guid>https://empijei.science/cooking/tags/basil/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>fresh</title>
-      <link>https://empijei.science/cooking/tags/fresh/</link>
-      <pubDate>Thu, 03 Sep 2020 11:02:31 +0200</pubDate>
-      
-      <guid>https://empijei.science/cooking/tags/fresh/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sweden on (C|B)ook</title>
+    <link>https://empijei.science/cooking/cuisine/sweden/</link>
+    <description>Recent content in Sweden on (C|B)ook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Sep 2020 18:46:14 +0200</lastBuildDate>
+    
+	<atom:link href="https://empijei.science/cooking/cuisine/sweden/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Swedish Chocolate Balls</title>
+      <link>https://empijei.science/cooking/recipes/swedish-chocolate-balls/</link>
+      <pubDate>Tue, 08 Sep 2020 18:46:14 +0200</pubDate>
+      
+      <guid>https://empijei.science/cooking/recipes/swedish-chocolate-balls/</guid>
+      <description>If you want to give your cookies the coffee taste, the water can be replaced completely or partially with the same amount of dark coffee.
+This recipe does not require baking nor the usage of knives, therefore is suitable for cooking with kids.</description>
+    </item>
+    
+  </channel>
+</rss>
