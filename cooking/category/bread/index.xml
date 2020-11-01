@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bread on (C|B)ook</title>
+    <link>https://empijei.science/cooking/category/bread/</link>
+    <description>Recent content in bread on (C|B)ook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Nov 2020 16:13:51 +0100</lastBuildDate>
+    
+	<atom:link href="https://empijei.science/cooking/category/bread/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Yoghurt Flatbread</title>
+      <link>https://empijei.science/cooking/recipes/yoghurt-flatbread/</link>
+      <pubDate>Sun, 01 Nov 2020 16:13:51 +0100</pubDate>
+      
+      <guid>https://empijei.science/cooking/recipes/yoghurt-flatbread/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
