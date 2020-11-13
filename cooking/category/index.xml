@@ -6,10 +6,19 @@
     <description>Recent content in Category on (C|B)ook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2020 16:13:51 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2020 10:02:57 +0100</lastBuildDate>
     
 	<atom:link href="https://empijei.science/cooking/category/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Drink</title>
+      <link>https://empijei.science/cooking/category/drink/</link>
+      <pubDate>Fri, 13 Nov 2020 10:02:57 +0100</pubDate>
+      
+      <guid>https://empijei.science/cooking/category/drink/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>bread</title>

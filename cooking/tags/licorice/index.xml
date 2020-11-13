@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Licorice on (C|B)ook</title>
+    <link>https://empijei.science/cooking/tags/licorice/</link>
+    <description>Recent content in Licorice on (C|B)ook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Nov 2020 10:02:57 +0100</lastBuildDate>
+    
+	<atom:link href="https://empijei.science/cooking/tags/licorice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Licoranis</title>
+      <link>https://empijei.science/cooking/recipes/licoranis/</link>
+      <pubDate>Fri, 13 Nov 2020 10:02:57 +0100</pubDate>
+      
+      <guid>https://empijei.science/cooking/recipes/licoranis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

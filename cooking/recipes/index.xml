@@ -6,10 +6,19 @@
     <description>Recent content in Recipes on (C|B)ook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2020 16:13:51 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2020 10:02:57 +0100</lastBuildDate>
     
 	<atom:link href="https://empijei.science/cooking/recipes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Licoranis</title>
+      <link>https://empijei.science/cooking/recipes/licoranis/</link>
+      <pubDate>Fri, 13 Nov 2020 10:02:57 +0100</pubDate>
+      
+      <guid>https://empijei.science/cooking/recipes/licoranis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Yoghurt Flatbread</title>
