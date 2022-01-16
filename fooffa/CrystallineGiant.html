@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <style>
+        .done button[name="randomize"] {
+            display: none;
+        }
+
+        .tokens-list {
+            text-transform: capitalize;
+        }
+
+        * {
+            font-family: sans-serif;
+            font-size: large;
+        }
+
+        button {
+            padding: 1ch;
+        }
+    </style>
+    <template id="giant-card">
+        <div class="giant-card">
+            <p>
+                Crystalline Giant
+            <ul class="tokens-list"></ul>
+            <button name="randomize" onclick="randomize(this)">Add random token</button>
+            <button name="remove" onclick="this.parentElement.remove()">Delete Giant</button>
+            </p>
+            <!-- TODO: undo -->
+        </div>
+    </template>
+
+</head>
+
+<body>
+    <button onclick="add()">Add a Giant</button>
+
+    <div id="render"></div>
+
+    <script>
+
+        const giant = document.getElementById('giant-card');
+        const abilities = ['flying', 'first strike', 'deathtouch', 'hexproof', 'lifelink', 'menace', 'reach', 'trample', 'vigilance', '+1/+1'];
+        function add() {
+            const clone = giant.content.cloneNode(true);
+            clone.children[0].setAttribute('data-missing', JSON.stringify(abilities));
+            render.appendChild(clone);
+        };
+
+        function randomize(element) {
+            const card = element.parentElement;
+            const prev = JSON.parse(card.getAttribute('data-missing'));
+            if (!prev || prev.length === 0) {
+                alert('BUG!');
+                return;
+            }
+
+            const index = Math.floor(Math.random() * prev.length);
+            const next = prev[index];
+            prev.splice(index, 1);
+            if (prev.length <= 0) {
+                card.classList.add('done');
+            }
+            card.setAttribute('data-missing', JSON.stringify(prev));
+
+            const node = document.createElement('li');
+            node.innerText = next;
+            card.getElementsByClassName('tokens-list')[0].appendChild(node);
+        };
+    </script>
+</body>
+
+</html>
