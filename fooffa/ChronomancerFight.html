@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>Chronomancer Fight</title>
+    <style>
+        * {
+            font-family: sans-serif;
+            font-size: 6vw;
+        }
+
+        #fightRender {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .right {
+            align-self: end;
+        }
+
+        .alternate {
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="techniqueRender"></div>
+    <br>
+    <div id="fightRender"></div>
+
+    <script>
+        const fights = [
+            'Leggere in che posizione sono le parole, ignorare il significato.',
+            'Leggere le parole, ignorando la posizione.',
+            'Leggere le parole, ma solo se in grassetto, altrimenti la posizione.',
+        ];
+
+        const words = ['SINISTRA', 'DESTRA', 'sinistra', 'destra', 'SiNiStRa', 'DeStRa'];
+
+        function pick(array) {
+            return array[Math.floor(Math.random() * array.length)];
+        }
+
+        function fight() {
+            window.techniqueRender.innerText = pick(fights);
+            window.fightRender.innerText = "";
+            for (let i = 0; i < Math.random() * 10 + 10; i++) {
+                let span = document.createElement('div');
+                span.innerText = pick(words);
+                if (Math.random() > 0.5) {
+                    span.classList.add("right");
+                }
+                if (Math.random() > 0.5) {
+                    span.classList.add("alternate");
+                }
+                window.fightRender.appendChild(span);
+            }
+        };
+        fight();
+    </script>
+</body>
+
+</html>
