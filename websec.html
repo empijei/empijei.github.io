@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Empijei's Web Security Spellbook</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Pirata+One|Bilbo+Swash+Caps&display=swap');
+        @import url('https://fonts.cdnfonts.com/css/open-dyslexic');
+
+
+        :root {
+            --fontSize: calc((1vw + 1vh) * .75);
+            font-family: sans-serif;
+        }
+
+        *,
+        *:before,
+        *:after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            font-family: sans-serif;
+        }
+
+        body {
+            background-color: rgb(48, 19, 0);
+        }
+
+        #parchment {
+            position: absolute;
+            display: flex;
+            width: 98%;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 0);
+            margin: 2em 0;
+            padding: 4em;
+            box-shadow: 2px 3px 20px black, 0 0 125px #8f5922 inset;
+            background: #fffef0;
+            filter: url(#wavy2);
+        }
+
+        #contain {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 98%;
+            height: auto;
+            margin: 0 auto;
+            padding: 2em;
+        }
+
+        @media only screen and (min-width: 600px) {
+            #parchment {
+                width: 80%;
+            }
+
+            #contain {
+                width: 80%;
+                padding: 4em;
+            }
+        }
+
+        #labarum {
+            width: 100%;
+            display: flex;
+            margin-top: 0;
+            margin-bottom: 0;
+            align-items: center;
+            justify-content: center;
+            padding: 5%;
+
+            svg {
+                object-fit: cover;
+                height: 10vw;
+                width: 10vw;
+                min-width: 100px;
+                min-height: 100px;
+            }
+
+        }
+
+        .intro {
+            font-family: 'Open-Dyslexic', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+            line-height: 1em;
+            color: DimGray;
+            font-family: Pirata One, sans-serif;
+        }
+
+        h1 {
+            font-size: 4em;
+        }
+
+        h2 {
+            font-size: 2.5em;
+        }
+
+        h3 {
+            font-size: 2em;
+        }
+
+        blockquote {
+            font-style: italic;
+            padding-right: 2em;
+            padding-left: 2em;
+            text-align: center;
+
+            .quote-content {
+                margin-bottom: 0;
+            }
+
+            .centered {
+                text-align: center;
+            }
+
+            .shadowed {
+                text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.574);
+            }
+
+            .quote-author {
+                text-align: right;
+                margin-top: 0;
+                font-size: 1em;
+            }
+
+        }
+
+        main {
+            position: relative;
+            width: 100%;
+            height: auto;
+
+            p {
+                font-size: 1.5em;
+                color: #343431;
+                margin-top: .75em;
+                margin-bottom: .75em;
+                text-align: justify;
+            }
+
+            /*TODO: move blockquote here to give it priority so that we can avoid classes*/
+        }
+
+        .img-container {
+            padding: 0.75em;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+
+        #signature {
+            text-align: right;
+            color: black;
+            font-size: 250%;
+            font-family: 'Bilbo Swash Caps', cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div id="parchment"></div>
+        <div id="contain">
+            <h1>Empijei's<br />Web Security Scroll</h1>
+            <p id="labarum">
+                <svg width="100" height="100" viewBox="-5 -5 225 225"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <!-- M -->
+                    <path d="M10 183 v-180 l60 60 l60 -60 v60" stroke="black" stroke-width="8"
+                        fill="none" />
+                    <!--  central circle  -->
+                    <circle cx="130" cy="93" r="30" stroke="black" stroke-width="8" fill="none" />
+                    <!-- P -->
+                    <path d="M130 3 a30 23, 0, 0, 1, 0 120" stroke="black" stroke-width="8"
+                        fill="none" />
+                    <!-- J -->
+                    <path d="M130 123 v60 a30 30, 0, 1, 1, -60 0" stroke="black" stroke-width="8"
+                        fill="none" />
+                </svg>
+            </p>
+            <h1 id="preface">Preface</h1>
+            <div class="intro">
+                <p>
+                    I've been working in web security for 10 years now and I've spent
+                    countless hours of my spare time trying to dig deeper and deeper into
+                    the topic.<br />
+                    Has it been worth it? I don't know, but I thought it might be of some value
+                    sharing
+                    some of my knowledge with you.
+                </p>
+                <p>
+                    I've been thinking about the format for a while now, and I realized that a guide
+                    or a blog or a wiki wouldn't quite represent what's in my head.<br />
+                    Security, especially web security, is a very advanced collection of
+                    technologies, most of which seem completely unrelated and glued
+                    together with duct tape. In fact, some of them are.<br />
+                    I think we are at a stage where almost no one in the world fully grasps the
+                    whole picture of what a user agent actually has to do in order to display a
+                    kitten GIF on a web chat.<br />
+                </p>
+                <blockquote>
+                    <p class="quote-content"> «Any sufficiently advanced technology is
+                        indistinguishable from magic.» </p>
+                    <p class="quote-author">Arthur C. Clarke</p>
+                </blockquote>
+                <p>
+                    I tend to agree with Clarke on this one, and I think that web security
+                    definitely
+                    falls into this area of obscurity.<br />
+                    This document should, therefore, be seen as a grimoire of spells
+                    you can use to protect your websites and applications. It's not a guide,
+                    it's not comprehensive and it's not perfect, but some of the incantations will
+                    get you very far in making your attackers' life harder.<br />
+                    Remember that a web application can never be <i>secure</i>, it can only be
+                    <i>secure
+                        enough</i>.<br />
+                    If you use the magic in here, you'll probably go a long way towards
+                    achieving that goal.
+                </p>
+                <p>
+                    If what I've written so far seems too far-fetched and that the web platform is
+                    actually simple, I'll leave a quote here, and you can decide
+                    whether it looks like an extract from a fantasy novel or the HTML specification.
+                <blockquote>
+                    <p class="quote-content centered shadowed">
+                        A shadow tree is a node tree whose root is a shadow root.<br>
+                        A shadow root is always attached to another node tree through its host.<br>
+                        A shadow tree is therefore never alone.<br>
+                        The node tree of a shadow root's host is sometimes referred to as the light
+                        tree.<br>
+                        A shadow tree's corresponding light tree can be a shadow tree itself.<br>
+                    </p>
+                </blockquote>
+                <div class="img-container">
+                    <img src="img/shadow_tree.svg"
+                        alt="The black silhouette of a leafless tree, with roots" width="400px"
+                        height="400px" />
+                </div>
+                </p>
+            </div>
+            <h1>Index</h1>
+            <p id="index_content"></p>
+            <script>
+
+            </script>
+            <h1>Server-Side</h1>
+            <h2></h2>
+            <h2>h2</h2>
+            <h3>h3</h3>
+            <p>Text</p>
+            <div id="signature">Roberto <br />Empijei<br />Clapis</div>
+        </div>
+    </main>
+
+    <svg>
+        <filter id="wavy2">
+            <feTurbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="1" />
+            <feDisplacementMap in="SourceGraphic" scale="20" />
+        </filter>
+    </svg>
+</body>
+
+<!-- Styles shamelessly stolen from https://codepen.io/AgnusDei/pen/NWPbOxL -->
+
+</html>
