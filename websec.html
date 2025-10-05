@@ -5,12 +5,12 @@
     <title>Empijei's Web Security Spellbook</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <style>
-        @import url('https://fonts.googleapis.com/css?family=Pirata+One|Bilbo+Swash+Caps&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Pirata+One|Fira+Code|Bilbo+Swash+Caps&display=swap');
         @import url('https://fonts.cdnfonts.com/css/open-dyslexic');
 
 
         :root {
-            --fontSize: calc((1vw + 1vh) * .75);
+            /*--fontSize: calc((1vw + 1vh) * .75);*/
             font-family: sans-serif;
         }
 
@@ -35,7 +35,7 @@
         #parchment {
             position: absolute;
             display: flex;
-            width: 98%;
+            width: 95%;
             top: 0;
             bottom: 0;
             left: 50%;
@@ -51,10 +51,11 @@
             position: relative;
             display: flex;
             flex-direction: column;
-            width: 98%;
+            width: 95%;
             height: auto;
             margin: 0 auto;
             padding: 2em;
+            padding-top: 4em;
         }
 
         @media only screen and (min-width: 600px) {
@@ -83,6 +84,7 @@
                 width: 10vw;
                 min-width: 100px;
                 min-height: 100px;
+                filter: drop-shadow(3px 3px 3px rgb(0 0 0 / 0.4));
             }
 
         }
@@ -101,7 +103,7 @@
         }
 
         h1 {
-            font-size: 4em;
+            font-size: 3em;
         }
 
         h2 {
@@ -118,8 +120,14 @@
             padding-left: 2em;
             text-align: center;
 
-            .quote-content {
+            .content {
                 margin-bottom: 0;
+            }
+
+            .author {
+                text-align: right;
+                margin-top: 0;
+                font-size: 1em;
             }
 
             .centered {
@@ -130,35 +138,48 @@
                 text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.574);
             }
 
-            .quote-author {
-                text-align: right;
-                margin-top: 0;
-                font-size: 1em;
-            }
-
         }
 
         main {
             position: relative;
             width: 100%;
             height: auto;
+            font-size: 1.5em;
+            color: #343431;
 
             p {
-                font-size: 1.5em;
-                color: #343431;
                 margin-top: .75em;
                 margin-bottom: .75em;
                 text-align: justify;
             }
 
+            .img-container {
+                padding: 0.75em;
+                display: flex;
+                align-content: center;
+                justify-content: center;
+            }
+
+            img {
+                scale: .2;
+                opacity: 0;
+                animation: fade-in linear forwards;
+                animation-timeline: view();
+                animation-range: 0 60%;
+            }
+
+            code {
+                font-family: 'Fira Code', monospace;
+            }
+
             /*TODO: move blockquote here to give it priority so that we can avoid classes*/
         }
 
-        .img-container {
-            padding: 0.75em;
-            display: flex;
-            align-content: center;
-            justify-content: center;
+        @keyframes fade-in {
+            to {
+                scale: 1;
+                opacity: 1;
+            }
         }
 
         #signature {
@@ -168,30 +189,36 @@
             font-family: 'Bilbo Swash Caps', cursive;
         }
     </style>
+
+    <script>
+        function makeTOC() {
+
+        }
+    </script>
 </head>
 
-<body>
+<body onload="makeTOC()">
     <main>
         <div id="parchment"></div>
         <div id="contain">
-            <h1>Empijei's<br />Web Security Scroll</h1>
+            <h1 style="font-size: 4em;">Empijei's<br />Web Security Scroll</h1>
             <p id="labarum">
                 <svg width="100" height="100" viewBox="-5 -5 225 225"
                     xmlns="http://www.w3.org/2000/svg">
                     <!-- M -->
-                    <path d="M10 183 v-180 l60 60 l60 -60 v60" stroke="black" stroke-width="8"
+                    <path d="M10 183 v-180 l60 60 l60 -60 v60" stroke="#343132" stroke-width="8"
                         fill="none" />
                     <!--  central circle  -->
-                    <circle cx="130" cy="93" r="30" stroke="black" stroke-width="8" fill="none" />
+                    <circle cx="130" cy="93" r="30" stroke="#343132" stroke-width="8" fill="none" />
                     <!-- P -->
-                    <path d="M130 3 a30 23, 0, 0, 1, 0 120" stroke="black" stroke-width="8"
+                    <path d="M130 3 a30 23, 0, 0, 1, 0 120" stroke="#343132" stroke-width="8"
                         fill="none" />
                     <!-- J -->
-                    <path d="M130 123 v60 a30 30, 0, 1, 1, -60 0" stroke="black" stroke-width="8"
+                    <path d="M130 123 v60 a30 30, 0, 1, 1, -60 0" stroke="#343132" stroke-width="8"
                         fill="none" />
                 </svg>
             </p>
-            <h1 id="preface">Preface</h1>
+            <h1>Preface</h1>
             <div class="intro">
                 <p>
                     I've been working in web security for 10 years now and I've spent
@@ -212,9 +239,9 @@
                     kitten GIF on a web chat.<br />
                 </p>
                 <blockquote>
-                    <p class="quote-content"> «Any sufficiently advanced technology is
+                    <p class="content"> «Any sufficiently advanced technology is
                         indistinguishable from magic.» </p>
-                    <p class="quote-author">Arthur C. Clarke</p>
+                    <p class="author">Arthur C. Clarke</p>
                 </blockquote>
                 <p>
                     I tend to agree with Clarke on this one, and I think that web security
@@ -231,16 +258,17 @@
                     achieving that goal.
                 </p>
                 <p>
-                    If what I've written so far seems too far-fetched and that the web platform is
+                    If what I've written so far seems too far-fetched and you think that the web
+                    platform is
                     actually simple, I'll leave a quote here, and you can decide
                     whether it looks like an extract from a fantasy novel or the HTML specification.
                 <blockquote>
-                    <p class="quote-content centered shadowed">
+                    <p class="content centered shadowed">
                         A shadow tree is a node tree whose root is a shadow root.<br>
                         A shadow root is always attached to another node tree through its host.<br>
                         A shadow tree is therefore never alone.<br>
-                        The node tree of a shadow root's host is sometimes referred to as the light
-                        tree.<br>
+                        The node tree of a shadow root's host is sometimes referred to as
+                        the&nbsp;light&nbsp;tree.<br>
                         A shadow tree's corresponding light tree can be a shadow tree itself.<br>
                     </p>
                 </blockquote>
@@ -252,13 +280,57 @@
                 </p>
             </div>
             <h1>Index</h1>
-            <p id="index_content"></p>
-            <script>
-
-            </script>
-            <h1>Server-Side</h1>
-            <h2></h2>
-            <h2>h2</h2>
+            <nav id="toc"></nav>
+            <h1 id="xss">On how to protect from Cross-Site Scripting, AKA&nbsp;XSS</h1>
+            <h2>Intro</h2>
+            <p>First of all, let's be clear: XSS is improperly named. There is some scripting, but
+                it's not really cross-site.
+                XSS is just about adding some undesired code to a page. Undesired for the owner,
+                that is.<br>
+                There are various approaches to defend against XSS, and I would personally suggest
+                them all, but if the budget is tight, please apply them in the order they appear (if
+                possible).
+            </p>
+            <h2 id="xss-templates">Strict Templates
+            </h2>
+            <p> In order for a template system to be defined "strict" it needs to be
+                Typesystem-Enforced, Context-Aware and with mandatory Auto-Escaping
+                I know that's a mouthful, but we're doing magic, not poetry.<br>
+                Let's break it down:
+            <dl>
+                <dt>Typesystem-Enforced</dt>
+                <dd>
+                    Templates should not accept runtime strings as sources, but only as
+                    arguments.<br>
+                    Only compile-time constants and string derived from similarly trusted inputs,
+                    like
+                    startup flags or storages under the programmer control, should be allowed as
+                    template sources.<br>
+                    Similarly, in order to construct strings that bypass the escaping, only trusted
+                    sources should be allowed.<br>
+                    This means that, in addition to the sources that would be trusted to create a
+                    template, one can also accept
+                    the output of encoders and sanitizers.<br>
+                    When I talk about encoders I mean that if you encode a string to be interpolated
+                    <!-- TODO(empijei): sanitizers and how to make them -->
+                    <!-- TODO(empijei): safe responses -->
+                </dd>
+                <dt>Context-Aware</dt>
+                <dd>
+                    When the template performs escaping, it should be aware of the context strings
+                    appear in. Escaping data that appears in a <code>style</code> tag is very
+                    different from doing it for a <code>href</code> attribute of an anchor.
+                    The template should use different escapers for different contexts, and reject
+                    interpolation for contexts it can't escape for.
+                </dd>
+                <dt>Auto-Escaping</dt>
+                <dd>
+                    Escaping should be automatic and always enabled. It should be impossible to
+                    accidentally
+                    use a template and not enable escaping.
+                </dd>
+            </dl>
+            </p>
             <h3>h3</h3>
             <p>Text</p>
             <div id="signature">Roberto <br />Empijei<br />Clapis</div>
